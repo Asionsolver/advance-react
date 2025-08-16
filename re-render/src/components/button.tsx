@@ -5,6 +5,7 @@ type ButtonProps = {
   children: ReactNode;
 };
 export const Button = ({ onClick, children }: ButtonProps) => {
+  console.log("Button component rendered");
   return (
     <button
       onClick={onClick}

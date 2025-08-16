@@ -6,6 +6,7 @@ type BasicModalDialogProps = {
 };
 
 export const ModalDialog = ({ onClose }: BasicModalDialogProps) => {
+  console.log("ModalDialog component rendered");
   return (
     <div className=" fixed top-7.5 left-[50%] ml-[-15rem] w-[30rem] bg-white border border-gray-500 rounded-[10px] shadow-lg">
       <div className="content px-4 py-8">modal content</div>
@@ -18,7 +19,7 @@ export const ModalDialog = ({ onClose }: BasicModalDialogProps) => {
 
 export const ButtonWithModalDialog = () => {
   const [isOpen, setIsOpen] = useState(false);
-  console.log("render only Button and ModalDialog here");
+  console.log("ButtonWithModalDialog component rendered");
   return (
     <>
       <Button onClick={() => setIsOpen(true)}>Open dialog </Button>

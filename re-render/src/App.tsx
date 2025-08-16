@@ -23,6 +23,25 @@
 
 // export default App;
 
+// TODO:The big re-renders myth
+
+// import { Button } from "./components/button";
+// import { ModalDialog } from "./components/modal-dialog";
+
+// const App = () => {
+//   // local variable won't work
+//   let isOpen = false;
+//   return (
+//     <div className="layout">
+//       {/* nothing will happen */}
+//       <Button onClick={() => (isOpen = true)}>Open dialog </Button>
+//       {/* will never show up */}
+//       {isOpen ? <ModalDialog onClose={() => (isOpen = false)} /> : null}
+//     </div>
+//   );
+// };
+// export default App;
+
 // ? optimize version
 import { BunchOfStuff, OtherStuffAlsoComplicated } from "./components/mocks";
 import { VerySlowComponent } from "./components/very-slow-component";
