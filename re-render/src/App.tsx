@@ -91,22 +91,36 @@
 // export default App;
 
 // ? optimize re-renders with custom hooks
-import { useEffect } from "react";
-import { ButtonWithModalDialog } from "./components/modal-dialog";
-import { VerySlowComponent } from "./components/very-slow-component";
-import { BunchOfStuff, OtherStuffAlsoComplicated } from "./components/mocks";
+// import { useEffect } from "react";
+// import { ButtonWithModalDialog } from "./components/modal-dialog";
+// import { VerySlowComponent } from "./components/very-slow-component";
+// import { BunchOfStuff, OtherStuffAlsoComplicated } from "./components/mocks";
 
-export default function App() {
-  useEffect(() => {
-    console.info("Component that uses useModalDialog re-renders");
-  });
+// export default function App() {
+//   useEffect(() => {
+//     console.info("Component that uses useModalDialog re-renders");
+//   });
 
+//   return (
+//     <>
+//       <ButtonWithModalDialog />
+//       <VerySlowComponent />
+//       <BunchOfStuff />
+//       <OtherStuffAlsoComplicated />
+//     </>
+//   );
+// }
+
+// Another example
+// import { Counter } from "./components/example/counter";
+import Logger from "./components/example/logger";
+const App = () => {
   return (
-    <>
-      <ButtonWithModalDialog />
-      <VerySlowComponent />
-      <BunchOfStuff />
-      <OtherStuffAlsoComplicated />
-    </>
+    <div>
+      {/* <Counter /> */}
+      <Logger />
+    </div>
   );
-}
+};
+
+export default App;
