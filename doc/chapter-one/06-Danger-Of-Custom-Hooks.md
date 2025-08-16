@@ -58,9 +58,12 @@ const useModalDialog = () => {
 
 ```
 
+> The entire App component will re-render on every resize, even though this value is not even returned from the hook!
+
 [Interactive example and full code](https://advanced-react.com/examples/01/05)
 
 > Hooks are essentially just pockets in your trousers. If, instead of carrying a 10-kilogram dumbbell in your hands, you put it in your pocket, it wouldn't change the fact that it's still hard to run: you have 10 kilograms of additional weight on your person. But if you put that ten kilograms in a self-driving trolley, you can run around freely and fresh and maybe even stop for coffee: the trolley will take care of itself. Components for the state are that trolley.
+
 > Exactly the same logic applies to the hooks that use other hooks: anything that can trigger a re-render, however deep in the chain of hooks it's happening, will trigger a re-render in the component that uses that very first hook. If I extract that additional state into a hook that returns null , App will still re-render on every resize:
 
 ```javascript
