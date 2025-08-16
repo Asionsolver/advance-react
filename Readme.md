@@ -353,9 +353,7 @@ const useModalDialog = () => {
   useResizeDetector();
   // return is the same
   return {
-    isOpen,
-    open,
-    close,
+   ...
   };
 }
 const useModalDialog = () => {
@@ -364,9 +362,7 @@ call it here
 useResizeDetector();
 // return is the same
 return {
-  isOpen,
-  open,
-  close,
+ ...
 };
 }
 const App = () => {
@@ -383,10 +379,52 @@ return // same return
 
 [Interactive example and full code](https://advanced-react.com/examples/01/06)
 
-</details>
+> So, be careful with those.
+
+> In order to fix our app, you'd still need to extract that button,dialog, and the custom hook into a component:
+
+```javascript
+const ButtonWithModalDialog = () => {
+  const { isOpen, open, close } = useModalDialog();
+  // render only Button and
+  ModalDialog here
+  return (
+    <>
+      <Button onClick={open}>Open dialog</Button>
+      {isOpen ? <ModalDialog onClose={close} /> : null}
+    </>
+  );
+};
+```
+
+[Interactive example and full code](https://advanced-react.com/examples/01/07)
+
+> So, where you put state is very important. Ideally, to avoid future performance problems, you'd want to isolate it as much as possible to as tiny and light components as possible. In the next chapter (Chapter 2. Elements, children as props, and re-renders), we'll take a look at another pattern that helps with exactly that.
 
 </details>
 
+ <details>
+
+<summary>Key takeaways</summary>
+
+<br>
+
+> This is just the beginning. In the following chapters, we'll dig into more details on how all of this works. In the meantime, here are some key points to remember from this Chapter:
+
+- Re-rendering is how React updates components with new data. Without re-renders, there will be no interactivity in our apps.
+- State update is the initial source of all re-renders.
+- If a component's re-render is triggered, all nested components inside that component will be re-rendered.
+- During the normal React re-renders cycle (without the use of memoization), props change doesn't matter: components will re-render
+  even if they don't have any props.
+- We can use the pattern known as "moving state down" to prevent unnecessary re-renders in big apps.
+- State update in a hook will trigger the re-render of a component that uses this hook, even if the state itself is not used.
+- In the case of hooks using other hooks, any state update within that chain of hooks will trigger the re-render of a component that uses the very first hook.
+
+</details>
+
+</details>
+
+<!--
 <details>
 <summary></summary>
 <br>
@@ -400,9 +438,4 @@ return // same return
 <details>
 <summary></summary>
 <br>
-</details>
-
-<details>
-<summary></summary>
-<br>
-</details>
+</details> -->
