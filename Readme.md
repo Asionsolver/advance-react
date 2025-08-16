@@ -214,27 +214,11 @@ const ButtonWithModalDialog = () => {
   // render only Button and ModalDialog here
   return (
     <>
-      <Button onClick={() => setIsOpen(true)}>
-        Open dialog
-      </Button>
-      {isOpen ? (
-        <ModalDialog onClose={() => setIsOpen(false)} />
-      ) : null}
+      <Button onClick={() => setIsOpen(true)}>Open dialog</Button>
+      {isOpen ? <ModalDialog onClose={() => setIsOpen(false)} /> : null}
     </>
   );
 };
-
-<>
-  <Button onClick={() => setIsOpen(true)}>
-    Open dialog
-  </Button>
-  {isOpen ? (
-    <ModalDialog onClose={() => setIsOpen(false)} />
-  ) : null}
-</>
-);
-};
-
 ```
 
 > And then just render this new component in the original big App :
