@@ -62,6 +62,6 @@ with the state inside */}
 
 > As a result, the modal dialog appears instantly. We just fixed a big performance problem with a simple composition technique!
 
-⬅️ **Back:📑 [Table of Contents](../Readme.md)**
+⬅️ **Back:📑 [Table of Contents](../../Readme.md)**
 
 ➡️ **Next Chapter: 🎯 [Key takeaways](./07-Key-Takeaways.md)**

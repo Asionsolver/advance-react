@@ -12,6 +12,6 @@
 - The "moving state down" technique to improve performance.
 - Why hooks can be dangerous when it comes to re-renders.
 
-⬅️ **Back:📑 [Table of Contents](../Readme.md)**
+⬅️ **Back:📑 [Table of Contents](../../Readme.md)**
 </br>
 ➡️ **Next Chapter: 💼 [Problem](./02-Problem.md)**

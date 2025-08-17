@@ -45,6 +45,6 @@ const App = () => {
 > People experienced with dealing with React performance might be tempted to say something like: "Ah, of course! You're re-rendering the whole app there, you just need to wrap everything in React.memo and use useCallback hooks to prevent it." And technically this is true. But don't rush. Memoization is completely unnecessary here and will do more harm than good. There is a more efficient way.
 > But first, let's review what exactly is happening here and why.
 
-⬅️ **Back:📑 [Table of Contents](../Readme.md)**
+⬅️ **Back:📑 [Table of Contents](../../Readme.md)**
 </br>
 ➡️ **Next Chapter: 🔄 [State update, nested components, and re-renders](./03-State-Update-Nested-Components-And-Re-Renders.md)**

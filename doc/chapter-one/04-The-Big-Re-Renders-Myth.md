@@ -29,6 +29,6 @@ const App = () => {
 
 > Preventing re-renders with memoization properly is a complicated topic with several caveats. Read about it in more detail in Chapter 5. Memoization with useMemo, useCallback and React.memo.
 
-⬅️ **Back:📑 [Table of Contents](../Readme.md)**
+⬅️ **Back:📑 [Table of Contents](../../Readme.md)**
 
 ➡️ **Next Chapter: ⬇️ [Moving state down](./05-Moving-State-Down.md)**

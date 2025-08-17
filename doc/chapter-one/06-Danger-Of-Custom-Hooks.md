@@ -126,6 +126,6 @@ const ButtonWithModalDialog = () => {
 
 > So, where you put state is very important. Ideally, to avoid future performance problems, you'd want to isolate it as much as possible to as tiny and light components as possible. In the next chapter (Chapter 2. Elements, children as props, and re-renders), we'll take a look at another pattern that helps with exactly that.
 
-⬅️ **Back:📑 [Table of Contents](../Readme.md)**
+⬅️ **Back:📑 [Table of Contents](../../Readme.md)**
 
 ➡️ **Next Chapter: 🎯 [Key takeaways](./07-Key-Takeaways.md)**

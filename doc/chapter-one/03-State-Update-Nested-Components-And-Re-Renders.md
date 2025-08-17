@@ -45,6 +45,6 @@ const App = () => {
 
 > The only way for components at the "bottom" to affect components at the "top" of the hierarchy is for them either to explicitly call state update in the "top" components or to pass components as functions.
 
-⬅️ **Back:📑 [Table of Contents](../Readme.md)**
+⬅️ **Back:📑 [Table of Contents](../../Readme.md)**
 </br>
 ➡️ **Next Chapter: 🎭 [The big re-renders myth](./04-The-Big-Re-Renders-Myth.md)**
