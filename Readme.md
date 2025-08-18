@@ -31,3 +31,17 @@
 - 👶 **[Children as props](./doc/chapter-two/04-Children-As-Props.md)**
 
 - 🎯 **[Key takeaways](./doc/chapter-two/05-Key-Takeaways.md)**
+
+#### 📋 Chapter 3: Configuration concerns with elements as props
+
+- 🌟 **[Goal](./doc/chapter-three/01-Goal.md)**
+
+- 💼 **[The problem](./doc/chapter-three/02-Problem.md)**
+
+- 🧩 **[Elements as props](./doc/chapter-three/03-Elements-As-Props.md)**
+
+- 🔀 **[Conditional rendering and performance](./doc/chapter-three/04-Conditional-Rendering-And-Performance.md)**
+
+- 🎨 **[Default values for the elements from props](./doc/chapter-three/05-Default-Values-For-The-Elements-From-Props.md)**
+
+- 🎯 **[Key takeaways](./doc/chapter-three/06-Key-Takeaways.md)**
