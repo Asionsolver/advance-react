@@ -45,3 +45,17 @@
 - 🎨 **[Default values for the elements from props](./doc/chapter-three/05-Default-Values-For-The-Elements-From-Props.md)**
 
 - 🎯 **[Key takeaways](./doc/chapter-three/06-Key-Takeaways.md)**
+
+#### 📚 Chapter 4: Advanced configuration with render props
+
+- 🌟 **[Goal](./doc/chapter-four/01-Goal.md)**
+
+- 💼 **[The problem](./doc/chapter-four/02-Problem.md)**
+
+- 🔧 **[Render props for rendering Elements](./doc/chapter-four/03-Render-Props-For-Rendering-Elements.md)**
+
+- 🤝 **[Sharing stateful logic: children as render props](./doc/chapter-four/04-Sharing-Stateful-Logic-Children-As-Render-Props.md)**
+
+- 🪝 **[Hooks replaced render props](./doc/chapter-four/05-Hooks-Replaced-Render-Props.md)**
+
+- 🎯 **[Key takeaways](./doc/chapter-four/06-Key-Takeaways.md)**
